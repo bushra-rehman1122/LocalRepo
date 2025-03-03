@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: #081b31;
+    color: white;
+    height:5rem ;
+    line-height: 5rem;
+}
+.choice:hover{
+    opacity: 0.3;
+    /* For creating blurness on image */
+    cursor: pointer;
+    /* when we move or enter cursor in something so the cursor changes from arrow to finger(handy type) */
+}
+.choice{
+    height: 165px;
+    width:165px ;
+margin-top: 70px;
+
+}
+img{
+    height: 150px;
+    width:150px ;
+    object-fit: cover;
+    /* to make pic perfect look not too stetched and too pulled */
+/* border-radius: 50%; */
+
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+gap: 5rem;
+}
+#user,#computer{
+    font-size: 4rem;
+}
+.message{
+    margin-top: 2.5rem;
+}
+#msg{
+    background-color: #081b31;
+    color: #fff;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+     display: inline;
+    /*ye sirf words ko ke background ko hi highlight karta hai(inline) */
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#msg:hover{
+    background-color: black ;
+    color: #fff;
+    font-weight: bolder;
+}
